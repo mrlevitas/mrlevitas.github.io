@@ -25,7 +25,7 @@ var bio = {
 	"skills" : skills , 
 	"contact_info" : {
 		"email" : "mrlevitas@yahoo.com" ,
-		"mobile": "347-788-0701" ,
+//		mobile": "347-788-0701" ,
 		"github": "github.com/mrlevitas",
 		"location" : "Washington D.C." 
 	} , 
@@ -142,8 +142,8 @@ function displayBio(){
 	var formattedEmail = HTMLemail.replace("%data%", bio.contact_info.email);
 	$("#topContacts").append(formattedEmail);
 
-	 var formattedMobile = HTMLmobile.replace("%data%", bio.contact_info.mobile);
-	$("#topContacts").append(formattedMobile);
+	// var formattedMobile = HTMLmobile.replace("%data%", bio.contact_info.mobile);
+	//$("#topContacts").append(formattedMobile);
 
 	var formattedGithub = HTMLgithub.replace("%data%", bio.contact_info.github);
 	$("#topContacts").append(formattedGithub);
@@ -164,8 +164,7 @@ function displayBio(){
 			}
 		}
 
-   $("#footerContacts").append(formattedMobile)
-        .append(formattedEmail)
+   $("#footerContacts").append(formattedEmail)
         .append(formattedGithub)
         .append(formattedLocation);
 }
