@@ -142,8 +142,8 @@ function displayBio(){
 	var formattedEmail = HTMLemail.replace("%data%", bio.contact_info.email);
 	$("#topContacts").append(formattedEmail);
 
-	 var formattedMobile = HTMLmobile.replace("%data%", bio.contact_info.mobile);
-	$("#topContacts").append(formattedMobile);
+//	 var formattedMobile = HTMLmobile.replace("%data%", bio.contact_info.mobile);
+//	$("#topContacts").append(formattedMobile);
 
 	var formattedGithub = HTMLgithub.replace("%data%", bio.contact_info.github);
 	$("#topContacts").append(formattedGithub);
