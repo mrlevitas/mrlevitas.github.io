@@ -20,7 +20,7 @@ var HTMLmobile = "<li class='flex-item'><span class='orange-text'>mobile</span><
 var HTMLemail = "<li class='flex-item'><span class='orange-text'>email</span><span class='white-text'>%data%</span></li>";
 var HTMLtwitter = "<li class='flex-item'><span class='orange-text'>twitter</span><span class='white-text'>%data%</span></li>";
 var HTMLgithub = "<li class='flex-item'><span class='orange-text'>github</span><span class='white-text'>%data%</span></li>";
-var HTMLblog = "<li class='flex-item'><span class='orange-text'>blog</span><span class='white-text'>%data%</span></li>";
+var HTMLLinkedin = "<li class='flex-item'><span class='orange-text'>Linkedin</span><span class='white-text'>%data%</span></li>";
 var HTMLlocation = "<li class='flex-item'><span class='orange-text'>location</span><span class='white-text'>%data%</span></li>";
 
 var HTMLbioPic = "<img src='%data%' class='biopic'>";
@@ -127,7 +127,7 @@ function initializeMap() {
     var locations = [];
 
     // adds the single location property from bio to the locations array
-    locations.push(bio.contact_info.location);
+    //locations.push(bio.contact_info.location);
     
     // iterates through school locations and appends each location to
     // the locations array
@@ -144,9 +144,9 @@ function initializeMap() {
     //hardcoding cities to add to google map
     locations.push("Lubbock, TX");
     locations.push("Kyiv, Ukraine");
-    locations.push("Hanover, Germany");
+    locations.push("Hanover, Deutschland");
     //locations.push("");
-console.log(locations);
+    console.log(locations);
     return locations;
   }
 
@@ -182,8 +182,7 @@ console.log(locations);
         //infowindow.setContent(place.name);
         //infowindow.open(map, this);
   if (marker.getAnimation() != null) {
-    marker.setAnimation(null);
-  } else {
+    marker.setAnimation(null);  } else {
     marker.setAnimation(google.maps.Animation.BOUNCE);
     infoWindow.open(map,marker);
 

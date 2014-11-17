@@ -25,7 +25,7 @@ var bio = {
 	"skills" : skills , 
 	"contact_info" : {
 		"email" : "mrlevitas@yahoo.com" ,
-//		mobile": "347-788-0701" ,
+		"Linkedin": "www.linkedin.com/in/mrlevitas" ,
 		"github": "github.com/mrlevitas",
 		"location" : "Washington D.C." 
 	} , 
@@ -141,6 +141,9 @@ function displayBio(){
 	 
 	var formattedEmail = HTMLemail.replace("%data%", bio.contact_info.email);
 	$("#topContacts").append(formattedEmail);
+
+	var formattedLinkedin = HTMLLinkedin.replace("%data%", bio.contact_info.Linkedin);
+	$("#topContacts").append(formattedLinkedin);
 
 	// var formattedMobile = HTMLmobile.replace("%data%", bio.contact_info.mobile);
 	//$("#topContacts").append(formattedMobile);
@@ -261,7 +264,46 @@ function displayWork(){
 	}
 }
 
+var menu = {
+   "menu": [
+      {
+         "title": "education",
+         "link": "#education"
+      },
+      { 
+         "title": "work",
+         "link": "#workExperience"
+      },
+   /*   {
+         "title": "projects",
+         "link": "#projectsH2"
+      },*/
+      {
+         "title": "map",
+         "link": "#mapDiv"
+      },
+      {
+         "title": "let's talk",
+         "link": "mailto:mrlevitas@yahoo.com"
+      }
+   ]
+};
 
+menu.display = function () {
+    'use strict';
+    var i=0, entry="", toptitle="", y=0;
+    $("nav").append("<ul id=\"navmenu\">");
+    //alert(menu.menu.length);
+    for (i=0; i<menu.menu.length; i=i+1) {
+       //alert(menu.menu[i].type);
+       entry = '<li><a href="'+menu.menu[i].link+'">'+menu.menu[i].title+'</a></li>';
+          // console.log(entry);
+          $("#navmenu:last").append(entry);
+    }
+};
+
+/////////// main /////////////////////////////////////
+menu.display();
 displayBio();
 displayEducation();
 displayWork();
