@@ -185,6 +185,7 @@ console.log(locations);
     marker.setAnimation(null);
   } else {
     marker.setAnimation(google.maps.Animation.BOUNCE);
+    infoWindow.open(map,marker);
 
   }
 }
