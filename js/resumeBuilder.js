@@ -27,7 +27,7 @@ var bio = {
 		"email" : "mrlevitas@yahoo.com" ,
 		"Linkedin": "www.linkedin.com/in/mrlevitas" ,
 		"github": "github.com/mrlevitas",
-		"location" : "Washington D.C." 
+		"location" : "Des Moines area" 
 	} , 
 	"welcomeMessage": "Welcome to my resume, here you will find my information and skills!",
     "bioPic": "images/me.jpg"
@@ -41,8 +41,8 @@ var work = {
 		{
 		"position" : "Certified Tutor",
 		"employer" : "Varsity Tutoring",
-		"years"    : "2014",
-		"description": "Tutored high school and University students in areas of math (calculus through differential equations), Physics, Computer Science, and German.",
+		"years"    : "2014-2015",
+		"description": "Tutored high school and university students in areas of math (calculus through differential equations), Physics, Computer Science, and German.",
 		"location" : "Washington D.C."
 		},
 
