@@ -27,7 +27,7 @@ var bio = {
 		"email" : "mrlevitas@yahoo.com" ,
 		"Linkedin": "www.linkedin.com/in/mrlevitas" ,
 		"github": "github.com/mrlevitas",
-		"location" : "Des Moines area" 
+		"location" : "Des Moines area, Iowa" 
 	} , 
 	"welcomeMessage": "Welcome to my resume, here you will find my information and skills!",
     "bioPic": "images/me.jpg"
