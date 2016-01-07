@@ -18,17 +18,17 @@ $("#main").append(funThoughts);
 
 
 
-var skills = ["Tutoring", "C/C++" , "Python", "Unix Command Line/Linux OS", "Matlab", "VHDL", "FPGA" , "Fluently Speak: German & Russian"];
+var skills = ["Ruby (on Rails)", "C/C++" , "Python", "Unix Command Line/Linux OS", "Fluently Speak: German & Russian"];
 
 var bio = {
 	"name" : "Roman Levitas",
-	"skills" : skills , 
+	"skills" : skills ,
 	"contact_info" : {
 		"email" : "mrlevitas@yahoo.com" ,
 		"Linkedin": "www.linkedin.com/in/mrlevitas" ,
 		"github": "github.com/mrlevitas",
-		"location" : "Des Moines area, Iowa" 
-	} , 
+		"location" : "Boston, MA"
+	} ,
 	"welcomeMessage": "Welcome to my resume, here you will find my information and skills!",
     "bioPic": "images/me.jpg"
 };
@@ -38,6 +38,14 @@ var bio = {
 
 var work = {
 	"jobs" : [
+		{
+		"position" : "Freelance Tutor",
+		"employer" : "Wyzant",
+		"years"    : "2015",
+		"description": "Created network of Iowa State University students that I tutored regularly in mathematics via my Wyzant online profile.",
+		"location" : "Ames, IA"
+		},
+
 		{
 		"position" : "Certified Tutor",
 		"employer" : "Varsity Tutoring",
@@ -51,15 +59,15 @@ var work = {
 		"employer" : "Sylvan Learning",
 		"years"    : "2013-2014",
 		"description": "Tutored 2nd and 4th grade students in areas of Math and Reading",
-		"location" : "Des Moines, IA"		
+		"location" : "Des Moines, IA"
 		},
 
 		{
 		"position" : "Release Engineering Intern",
 		"employer" : "Wolfram Research Inc.",
 		"years"    : "2010-2011",
-		"description": "Documented the weekly release cycle of www.wolframalpha.com & found points of optimization. Designed a real-time user interface that coordinates the current stage of release cycle across Departments (Dev, Testing, Q/A, Release) and integrates documentation/policies/best-practices pertinent to ensuring a successful deployment.",
-		"location" : "Champaign, IL"		
+		"description": "Documented the weekly release cycle of www.wolframalpha.com & found points of optimization.",
+		"location" : "Champaign, IL"
 		},
 
 		{
@@ -67,9 +75,9 @@ var work = {
 		"employer" : "Center for Plasma Material Interaction",
 		"years"    : "2009-2010",
 		"description": "Ran & Maintained Lithium Ion Interaction experiment as part of research for fusion tokomak reactor www.iter.org (International Thermonuclear Experimental Reactor).	Regulated conditions for Ion Surface Interaction Experiment i.e. adjusting voltage levels to direct ion beam, maintaining vacuum, troubleshooting diagnosis, etc.",
-		"location" : "Urbana, IL"		
+		"location" : "Urbana, IL"
 		}
-	]	
+	]
 
 };
 
@@ -78,8 +86,26 @@ var work = {
 var education = {
 	"schools" : [
 		{
+		"name" : "Launch Academy" ,
+		"years" : "2015-2016" ,
+		"city"  : "Boston, MA",
+		"major" : "Fullstack Web Development in Ruby (on Rails)",
+		"minors": "",
+		"GPA"   : ""
+		},
+
+		{
+		"name" : "Udacity" ,
+		"years" : "2015" ,
+		"city"  : "online",
+		"major" : "Nanodegree in Fullstack Web Development in Python",
+		"minors": "",
+		"GPA"   : ""
+		},
+
+		{
 		"name" : "University of Illinois Urbana Champaign" ,
-		"years" : "2009-2014" , 
+		"years" : "2009-2014" ,
 		"city"  : "Urbana-Champaign, IL",
 		"major" : "B.S. in Electrical Engineering",
 		"minors": "Computer Science, German, International Minor in Engineering--Germany",
@@ -88,7 +114,7 @@ var education = {
 
 		{
 		"name" : "Technical University Munich" ,
-		"years" : "2012 summer" , 
+		"years" : "2012 summer" ,
 		"city"  : "Munich, Germany",
 		"major" : "Nanotechnology",
 		"minors": "",
@@ -97,7 +123,7 @@ var education = {
 
 		{
 		"name" : "North Kansas City High School" ,
-		"years" : "2007-2009" , 
+		"years" : "2007-2009" ,
 		"city"  : "North Kansas City, MO",
 		"major" : "International Baccalaureate Diploma",
 		"minors": "",
@@ -106,7 +132,7 @@ var education = {
 
 		{
 		"name" : "Oxford University St. Hugh's College" ,
-		"years" : "2008 summer" , 
+		"years" : "2008 summer" ,
 		"city"  : "Oxford, England",
 		"major" : "Sociology",
 		"minors": "",
@@ -138,7 +164,7 @@ function displayBio(){
 
 	$("#header").prepend(formattedRole);
 	$("#header").prepend(formattedName);
-	 
+
 	var formattedEmail = HTMLemail.replace("%data%", bio.contact_info.email);
 	$("#topContacts").append(formattedEmail);
 
@@ -183,7 +209,7 @@ var HTMLschoolMinor = "<em><br>Major: %data%</em>"
 */
 function displayEducation(){
 	console.log("education.schools.length" );
-	
+
 	if(education.schools.length > 0) {
 
 		//create new div for work experience
@@ -205,8 +231,8 @@ function displayEducation(){
 
 			formattedschoolLocation = HTMLschoolLocation.replace("%data%" , education.schools[school_iter].city);
 			$(".education-entry:last").append(formattedschoolLocation);
-			
-			if(education.schools[school_iter].minors.length > 0){		
+
+			if(education.schools[school_iter].minors.length > 0){
 				formattedschoolMinors = HTMLschoolMinor.replace("%data%" , education.schools[school_iter].minors);
 				$(".education-entry:last").append(formattedschoolMinors);
 			}
@@ -255,8 +281,8 @@ function displayWork(){
 
 			formattedworkLocation = HTMLworkLocation.replace("%data%" , work.jobs[job_iter].location);
 			$(".work-entry:last").append(formattedworkLocation);
-			
-			
+
+
 			formattedworkDescription = HTMLworkDescription.replace("%data%" , work.jobs[job_iter].description);
 			$(".work-entry:last").append(formattedworkDescription);
 
@@ -270,7 +296,7 @@ var menu = {
          "title": "education",
          "link": "#education"
       },
-      { 
+      {
          "title": "work",
          "link": "#workExperience"
       },
