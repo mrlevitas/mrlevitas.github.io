@@ -18,7 +18,7 @@ $("#main").append(funThoughts);
 
 
 
-var skills = ["Ruby (on Rails)", "C/C++" , "Python", "Unix Command Line/Linux OS", "Fluently Speak: German & Russian"];
+var skills = ["Ruby (on Rails)", "C/C++" , "Python", "Javascript", "SQL",  "Unix Command Line/Linux OS", "Fluently Speak: German & Russian"];
 
 var bio = {
 	"name" : "Roman Levitas",
@@ -39,10 +39,26 @@ var bio = {
 var work = {
 	"jobs" : [
 		{
+		"position" : "Jr. Software Engineer",
+		"employer" : "RBM Technologies",
+		"years"    : "2016-present",
+		"description": "Developing new features based on wire-frames as a fullstack engineer.",
+		"location" : "Boston, MA"
+		},
+
+		{
+		"position" : "Software Engineer Intern",
+		"employer" : "RBM Technologies",
+		"years"    : "2016",
+		"description": "Deployed code in a Ruby on Rails environment using pull‑request workflow as well as operating under a Scrum sprint based system.",
+		"location" : "Boston, MA"
+		},
+
+		{
 		"position" : "Freelance Tutor",
 		"employer" : "Wyzant",
 		"years"    : "2015",
-		"description": "Created network of Iowa State University students that I tutored regularly in mathematics via my Wyzant online profile.",
+		"description": "Created network of Iowa State University students that I tutored regularly in college level mathematics.",
 		"location" : "Ames, IA"
 		},
 
@@ -50,7 +66,7 @@ var work = {
 		"position" : "Certified Tutor",
 		"employer" : "Varsity Tutoring",
 		"years"    : "2014-2015",
-		"description": "Tutored high school and university students in areas of math (calculus through differential equations), Physics, Computer Science, and German.",
+		"description": "Tutored high school and university students in areas of math (calculus through differential equations), Physics, Computer Science, and SAT/ACT prep.",
 		"location" : "Washington D.C."
 		},
 
@@ -89,7 +105,7 @@ var education = {
 		"name" : "Launch Academy" ,
 		"years" : "2015-2016" ,
 		"city"  : "Boston, MA",
-		"major" : "Fullstack Web Development in Ruby (on Rails)",
+		"major" : "Fullstack Web Development in Ruby (on Rails) and JS",
 		"minors": "",
 		"GPA"   : ""
 		},
@@ -157,7 +173,7 @@ var HTMLbioPic = "<img src='%data%' class='biopic'>";
 */
 
 function displayBio(){
-	var Statement = "Uni. of Illinois Urbana-Champaign Electrical Engineering 2014 graduate with a minor in Computer Science & German";
+	var Statement = "Uni. of Illinois Urbana-Champaign Electrical Engineering 2014 graduate with a minor in Computer Science & German\n Currently working as Fullstack Software Engineer";
 
 	var formattedName = HTMLheaderName.replace("%data%", bio.name);
 	var formattedRole = HTMLheaderRole.replace("%data%", Statement)
