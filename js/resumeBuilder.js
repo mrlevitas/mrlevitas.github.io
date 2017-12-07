@@ -16,9 +16,7 @@ var funThoughts = awesomeThoughts.replace("AWESOME", "FUN");
 $("#main").append(funThoughts);
 */
 
-
-
-var skills = ["Ruby (on Rails)", "C/C++" , "Python", "Javascript", "SQL",  "Unix Command Line/Linux OS", "Fluently Speak: German & Russian"];
+var skills = ["Ruby (on Rails)", "React + Javascript/ES6", "Elm", "Python", "C/C++",  "SQL",  "Unix", "Fluently Speak: German & Russian"];
 
 var bio = {
 	"name" : "Roman Levitas",
@@ -39,13 +37,19 @@ var bio = {
 var work = {
 	"jobs" : [
 		{
+		"position" : "Software Engineer",
+		"employer" : "One Door (formerly RBM Technologies)",
+		"years"    : "2017-present",
+		"description": "Continued responsibilities as fullstack engineer including new areas such as development in Elm.",
+		"location" : "Boston, MA"
+		},
+		{
 		"position" : "Jr. Software Engineer",
 		"employer" : "RBM Technologies",
-		"years"    : "2016-present",
+		"years"    : "2016-2017",
 		"description": "Developing new features based on wire-frames as a fullstack engineer.",
 		"location" : "Boston, MA"
 		},
-
 		{
 		"position" : "Software Engineer Intern",
 		"employer" : "RBM Technologies",
@@ -102,6 +106,15 @@ var work = {
 var education = {
 	"schools" : [
 		{
+		"name" : "University of Illinois Urbana Champaign" ,
+		"years" : "2009-2014" ,
+		"city"  : "Urbana-Champaign, IL",
+		"major" : "B.S. in Electrical Engineering",
+		"minors": "Computer Science, German, International Minor in Engineering--Germany",
+		"GPA"   : "3.53"
+		},
+
+		{
 		"name" : "Launch Academy" ,
 		"years" : "2015-2016" ,
 		"city"  : "Boston, MA",
@@ -112,22 +125,12 @@ var education = {
 
 		{
 		"name" : "Udacity" ,
-		"years" : "2015" ,
+		"years" : "2017" ,
 		"city"  : "online",
-		"major" : "Nanodegree in Fullstack Web Development in Python",
+		"major" : "Nanodegrees in: Fullstack Web Development in Python, React, and Machine Learning",
 		"minors": "",
 		"GPA"   : ""
 		},
-
-		{
-		"name" : "University of Illinois Urbana Champaign" ,
-		"years" : "2009-2014" ,
-		"city"  : "Urbana-Champaign, IL",
-		"major" : "B.S. in Electrical Engineering",
-		"minors": "Computer Science, German, International Minor in Engineering--Germany",
-		"GPA"   : "3.53"
-		},
-
 		{
 		"name" : "Technical University Munich" ,
 		"years" : "2012 summer" ,
