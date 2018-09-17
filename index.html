@@ -16,7 +16,9 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
 -->
 <head>
   <link href="css/style.css" rel="stylesheet" type="text/css"></link>
-
+  <link rel="shortcut icon"
+      type="image/png"
+      href="images/favicon.png">
   <!--
   jQuery is a common JavaScript library for reading and making changes to the
   Document Object Model (DOM). The DOM is a tree that contains information
@@ -39,7 +41,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   Uncomment the <script> tag below when you're ready to add an interactive
   Google Map to your resume!
   -->
-  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+  <!-- <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script> -->
 
 <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEs-VBr_TqX21GBLkL1Gejk2nERfsIU7g&libraries=places"></script> -->
   <meta name="viewport" content="width=device-width">
@@ -140,9 +142,6 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   }
   if(document.getElementsByClassName("flex-item").length === 0) {
     document.getElementById("letsConnect").style.display = "none";
-  }
-  if(document.getElementById("map") == undefined) {
-    document.getElementById("mapDiv").style.display = "none";
   }
   </script>
 </body>
