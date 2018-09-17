@@ -25,7 +25,7 @@ var bio = {
 		"email" : "mrlevitas@yahoo.com" ,
 		"Linkedin": "www.linkedin.com/in/mrlevitas" ,
 		"github": "github.com/mrlevitas",
-		"location" : "Boston, MA"
+		"location" : "San Francisco, CA"
 	} ,
 	"welcomeMessage": "Welcome to my resume, here you will find my information and skills!",
     "bioPic": "images/me.jpg"
@@ -38,8 +38,15 @@ var work = {
 	"jobs" : [
 		{
 		"position" : "Software Engineer",
+		"employer" : "Juvo",
+		"years"    : "2018-present",
+		"description": "Juvo partners with mobile operators across the globe, providing prepaid mobile users in developing countries access to meaningful financial services using data science-driven Identity Scoring.",
+		"location" : "San Francisco, CA"
+		},
+		{
+		"position" : "Software Engineer",
 		"employer" : "One Door (formerly RBM Technologies)",
-		"years"    : "2017-present",
+		"years"    : "2017-2018",
 		"description": "Continued responsibilities as fullstack engineer including new areas such as development in Elm.",
 		"location" : "Boston, MA"
 		},
