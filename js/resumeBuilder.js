@@ -183,7 +183,7 @@ var HTMLbioPic = "<img src='%data%' class='biopic'>";
 */
 
 function displayBio(){
-	var Statement = "Uni. of Illinois Urbana-Champaign Electrical Engineering 2014 graduate with a minor in Computer Science & German.\n Currently working as Fullstack Software Engineer";
+	var Statement = "Uni. of Illinois Urbana-Champaign Electrical Engineering 2014 graduate with a minor in Computer Science & German.<br>Currently working as Fullstack Software Engineer";
 
 	var formattedName = HTMLheaderName.replace("%data%", bio.name);
 	var formattedRole = HTMLheaderRole.replace("%data%", Statement)
