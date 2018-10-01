@@ -234,8 +234,6 @@ var HTMLschoolLocation = "<div class='location-text'>%data%</div>";
 var HTMLschoolMinor = "<em><br>Major: %data%</em>"
 */
 function displayEducation(){
-	console.log("education.schools.length" );
-
 	if(education.schools.length > 0) {
 
 		//create new div for work experience
