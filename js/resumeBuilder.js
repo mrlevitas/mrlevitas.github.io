@@ -353,6 +353,3 @@ menu.display();
 displayBio();
 displayEducation();
 displayWork();
-
-
-$("#mapDiv").append(googleMap);
