@@ -329,10 +329,6 @@ var menu = {
          "link": "#projectsH2"
       },*/
       {
-         "title": "map",
-         "link": "#mapDiv"
-      },
-      {
          "title": "let's talk",
          "link": "mailto:mrlevitas@yahoo.com"
       }
