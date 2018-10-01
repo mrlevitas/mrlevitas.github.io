@@ -40,7 +40,7 @@ var work = {
 		"position" : "Software Engineer",
 		"employer" : "Juvo",
 		"years"    : "2018-present",
-		"description": "Juvo partners with mobile operators across the globe, providing prepaid mobile users in developing countries access to meaningful financial services using data science-driven Identity Scoring.",
+		"description": "Juvo partners with mobile operators across the globe, providing prepaid mobile users in developing countries access to meaningful financial services using data science-driven Identity Scoring.<br>RoR backend & React frontend for fullstack responsibilities.",
 		"location" : "San Francisco, CA"
 		},
 		{
@@ -61,7 +61,7 @@ var work = {
 		"position" : "Software Engineer Intern",
 		"employer" : "RBM Technologies",
 		"years"    : "2016",
-		"description": "Deployed code in a Ruby on Rails environment using pull‑request workflow as well as operating under a Scrum sprint based system.",
+		"description": "Deployed code in a Ruby on Rails environment using pull-request workflow as well as operating under a Scrum sprint based system.",
 		"location" : "Boston, MA"
 		},
 
