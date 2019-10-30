@@ -16,9 +16,16 @@ var bio = {
 var work = {
 	"jobs" : [
 		{
+		"position" : "Senior Software Engineer",
+		"employer" : "Juvo",
+		"years"    : "2019-present",
+		"description": "Continued responsibilities as fullstack engineer.<br>Developed & production-ized API backend for ML credit policy decisioning engine based on prepaid phone activity.",
+		"location" : "San Francisco, CA"
+		},
+		{
 		"position" : "Software Engineer",
 		"employer" : "Juvo",
-		"years"    : "2018-present",
+		"years"    : "2018-2019",
 		"description": "Juvo partners with mobile operators across the globe, providing prepaid mobile users in developing countries access to meaningful financial services using data science-driven Identity Scoring.<br>RoR backend & React frontend for fullstack responsibilities.",
 		"location" : "San Francisco, CA"
 		},
