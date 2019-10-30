@@ -22,7 +22,7 @@ var work = {
 		"description": "Continued responsibilities as fullstack engineer.<br>Developed & production-ized API backend for ML credit policy decisioning engine based on prepaid phone activity.",
 		"location" : "San Francisco, CA"
 		},
-		
+
 		{
 		"position" : "Software Engineer",
 		"employer" : "Juvo",
@@ -211,14 +211,6 @@ function displayBio(){
         .append(formattedLocation);
 }
 
-/*
-var HTMLschoolStart = "<div class='education-entry'></div>";
-var HTMLschoolName = "<a href='#'>%data%";
-var HTMLschoolDegree = " -- %data%</a>";
-var HTMLschoolDates = "<div class='date-text'>%data%</div>";
-var HTMLschoolLocation = "<div class='location-text'>%data%</div>";
-var HTMLschoolMinor = "<em><br>Major: %data%</em>"
-*/
 function displayEducation(){
 	if(education.schools.length > 0) {
 
@@ -258,15 +250,6 @@ function displayEducation(){
 	}
 }
 
-/*
-var HTMLworkStart = "<div class='work-entry'></div>";
-var HTMLworkEmployer = "<a href='#'>%data%";
-var HTMLworkTitle = " - %data%</a>";
-var HTMLworkDates = "<div class='date-text'>%data%</div>";
-var HTMLworkLocation = "<div class='location-text'>%data%</div>";
-var HTMLworkDescription = "<p><br>%data%</p>";
-*/
-
 function displayWork(){
 	if(work.jobs.length > 0) {
 		//create new div for work experience
@@ -304,14 +287,12 @@ var menu = {
          "title": "education",
          "link": "#education"
       },
+			
       {
          "title": "work",
          "link": "#workExperience"
       },
-   /*   {
-         "title": "projects",
-         "link": "#projectsH2"
-      },*/
+
       {
          "title": "let's talk",
          "link": "mailto:mrlevitas@yahoo.com"
