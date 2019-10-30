@@ -22,6 +22,7 @@ var work = {
 		"description": "Continued responsibilities as fullstack engineer.<br>Developed & production-ized API backend for ML credit policy decisioning engine based on prepaid phone activity.",
 		"location" : "San Francisco, CA"
 		},
+		
 		{
 		"position" : "Software Engineer",
 		"employer" : "Juvo",
@@ -29,6 +30,7 @@ var work = {
 		"description": "Juvo partners with mobile operators across the globe, providing prepaid mobile users in developing countries access to meaningful financial services using data science-driven Identity Scoring.<br>RoR backend & React frontend for fullstack responsibilities.",
 		"location" : "San Francisco, CA"
 		},
+
 		{
 		"position" : "Software Engineer",
 		"employer" : "One Door (formerly RBM Technologies)",
@@ -36,6 +38,7 @@ var work = {
 		"description": "Continued responsibilities as fullstack engineer including new areas such as development in Elm.",
 		"location" : "Boston, MA"
 		},
+
 		{
 		"position" : "Jr. Software Engineer",
 		"employer" : "RBM Technologies",
@@ -43,6 +46,7 @@ var work = {
 		"description": "Developing new features based on wire-frames as a fullstack engineer.",
 		"location" : "Boston, MA"
 		},
+
 		{
 		"position" : "Software Engineer Intern",
 		"employer" : "RBM Technologies",
