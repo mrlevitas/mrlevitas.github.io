@@ -1,21 +1,3 @@
-//$("#main").append(["Roman Levitas\n"]);
-/*
-var awesomeThoughts = "I am Roman and I am AWESOME!"
-console.log(awesomeThoughts);
-
-var email = "mrlevitas@yahoo.com"
-
-var newEmail = email.replace("yahoo", "gmail");
-
-console.log(email)
-console.log(newEmail)
-
-var funThoughts = awesomeThoughts.replace("AWESOME", "FUN");
-
-
-$("#main").append(funThoughts);
-*/
-
 var skills = ["Ruby (on Rails)", "React + Javascript/ES6", "Elm", "Python", "C/C++",  "SQL",  "Unix", "Fluently Speak: German & Russian"];
 
 var bio = {
@@ -30,9 +12,6 @@ var bio = {
 	"welcomeMessage": "Welcome to my resume, here you will find my information and skills!",
     "bioPic": "images/me.jpg"
 };
-
-
-
 
 var work = {
 	"jobs" : [
@@ -108,8 +87,6 @@ var work = {
 
 };
 
-
-
 var education = {
 	"schools" : [
 		{
@@ -167,7 +144,6 @@ var education = {
 	]
 };
 
-
 /*
 var HTMLheaderName = "<h1 id='name'>%data%</h1>";
 var HTMLheaderRole = "<span>%data%</span>";
@@ -224,7 +200,6 @@ function displayBio(){
         .append(formattedLocation);
 }
 
-
 /*
 var HTMLschoolStart = "<div class='education-entry'></div>";
 var HTMLschoolName = "<a href='#'>%data%";
@@ -270,9 +245,7 @@ function displayEducation(){
 
 		}
 	}
-
 }
-
 
 /*
 var HTMLworkStart = "<div class='work-entry'></div>";
