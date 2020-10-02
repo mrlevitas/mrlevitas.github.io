@@ -10,7 +10,7 @@ var bio = {
 		"location" : "San Francisco, CA"
 	} ,
 	"welcomeMessage": "Welcome to my resume, here you will find my information and skills!",
-    "bioPic": "images/me.jpg"
+    "bioPic": "images/state_fair.png"
 };
 
 var work = {
@@ -287,7 +287,7 @@ var menu = {
          "title": "education",
          "link": "#education"
       },
-			
+
       {
          "title": "work",
          "link": "#workExperience"
