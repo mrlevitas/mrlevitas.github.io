@@ -1,4 +1,4 @@
-var skills = ["Ruby (on Rails)", "React + Javascript/ES6", "Elm", "Python", "C/C++",  "SQL",  "Unix", "Fluently Speak: German & Russian"];
+var skills = ["Ruby (on Rails)", "React", "Javascript", "Python", "Go", "Elm", "C", "C++", "SQL", "Fluently Speak: German & Russian"];
 
 var bio = {
 	"name" : "Roman Levitas",
@@ -170,7 +170,7 @@ var HTMLbioPic = "<img src='%data%' class='biopic'>";
 */
 
 function displayBio(){
-	var Statement = "Uni. of Illinois Urbana-Champaign Electrical Engineering 2014 graduate with a minor in Computer Science & German.<br>Currently working as Backend Software Engineer";
+	var Statement = "Uni. of Illinois Urbana-Champaign Electrical Engineering 2014 graduate with a minor in Computer Science & German. Currently working as a Senior Software Engineer (backend).";
 
 	var formattedName = HTMLheaderName.replace("%data%", bio.name);
 	var formattedRole = HTMLheaderRole.replace("%data%", Statement)
