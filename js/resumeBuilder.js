@@ -5,11 +5,11 @@ var bio = {
 	"skills" : skills ,
 	"contact_info" : {
 		"email" : "mrlevitas@yahoo.com" ,
-		"Linkedin": "www.linkedin.com/in/mrlevitas" ,
+		"Linkedin": "linkedin.com/in/mrlevitas" ,
 		"github": "github.com/mrlevitas",
 		"location" : "San Francisco, CA"
 	} ,
-	"welcomeMessage": "Welcome to my resume, here you will find my information and skills!",
+	"welcomeMessage": "Welcome to my page, here you will find my information and skills!",
     "bioPic": "images/state_fair.png"
 };
 
@@ -19,7 +19,7 @@ var work = {
 		"position" : "Senior Software Engineer",
 		"employer" : "Juvo",
 		"years"    : "2019-present",
-		"description": "Continued responsibilities as fullstack engineer.<br>Developed & production-ized API backend for ML credit policy decisioning engine based on prepaid phone activity.",
+		"description": "Continued responsibilities as backend engineer.<br>Developed & production-ized API backend for ML credit policy decisioning engine based on prepaid phone activity.<br>Created ETL Kafka consumer Campaign Notification service based on telco user's low-balance events.",
 		"location" : "San Francisco, CA"
 		},
 
@@ -27,7 +27,7 @@ var work = {
 		"position" : "Software Engineer",
 		"employer" : "Juvo",
 		"years"    : "2018-2019",
-		"description": "Juvo partners with mobile operators across the globe, providing prepaid mobile users in developing countries access to meaningful financial services using data science-driven Identity Scoring.<br>RoR backend & React frontend for fullstack responsibilities.",
+		"description": "Juvo partners with mobile operators across the globe, providing prepaid mobile users in developing countries access to meaningful financial services using data science-driven Identity Scoring.<br>RoR backend responsibilities.",
 		"location" : "San Francisco, CA"
 		},
 
@@ -170,7 +170,7 @@ var HTMLbioPic = "<img src='%data%' class='biopic'>";
 */
 
 function displayBio(){
-	var Statement = "Uni. of Illinois Urbana-Champaign Electrical Engineering 2014 graduate with a minor in Computer Science & German.<br>Currently working as Fullstack Software Engineer";
+	var Statement = "Uni. of Illinois Urbana-Champaign Electrical Engineering 2014 graduate with a minor in Computer Science & German.<br>Currently working as Backend Software Engineer";
 
 	var formattedName = HTMLheaderName.replace("%data%", bio.name);
 	var formattedRole = HTMLheaderRole.replace("%data%", Statement)
