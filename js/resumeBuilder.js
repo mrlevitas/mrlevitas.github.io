@@ -2,6 +2,7 @@ var skills = ["Ruby (on Rails)", "React", "Javascript", "Python", "Go", "Elm", "
 
 var bio = {
 	"name" : "Roman Levitas",
+	"resume_link" : "https://drive.google.com/file/d/1h_QWc4xTC8Kfd9A3oWF2HdOh39fTeF_z",
 	"skills" : skills ,
 	"contact_info" : {
 		"email" : "mrlevitas@yahoo.com" ,
@@ -196,15 +197,17 @@ function displayBio(){
 	var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
 	$("#header").append(formattedBioPic);
 
-		if(bio.skills.length > 0) {
-			$("#header").append(HTMLskillsStart);
-			var formattedSkill;
+	if(bio.skills.length > 0) {
+		$("#header").append(HTMLskillsStart);
+		var formattedSkill;
 
-			for(skill_iter in bio.skills){
-				formattedSkill = HTMLskills.replace("%data%" , bio.skills[skill_iter]);
-				$("#header").append(formattedSkill);
-			}
+		for(skill_iter in bio.skills){
+			formattedSkill = HTMLskills.replace("%data%" , bio.skills[skill_iter]);
+			$("#header").append(formattedSkill);
 		}
+	}
+
+	$("#header").append(HTMLresume.replace("%data%" , bio.resume_link));
 
    $("#footerContacts").append(formattedEmail)
         .append(formattedGithub)
