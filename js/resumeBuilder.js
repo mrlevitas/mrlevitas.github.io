@@ -1,4 +1,4 @@
-var skills = ["Ruby (on Rails)", "React", "Javascript", "Python", "Go", "Elm", "C", "C++", "SQL", "Fluently Speak: German & Russian"];
+var skills = ["Ruby (on Rails)", "Python", "Go", "React", "Javascript", "Elm", "C", "C++", "SQL", "Fluently Speak: German & Russian"];
 
 var bio = {
 	"name" : "Roman Levitas",
