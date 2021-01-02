@@ -159,12 +159,7 @@ h2, h3, h4, h5 {
 }
 
 .location-text {
-  font-style: italic;
-  font-weight: bold;
-  font-size: 14px;
-  color: #000000;
-  line-height: 16px;
-  float: inherit;
+  font-family: monospace, serif;
 }
 
 p {
@@ -189,7 +184,10 @@ a {
 
 #skillsH3 {
   color: #F5AE23;
-  display: none;
+}
+
+#resumeH3 {
+  color: #F5AE23;
 }
 
 .under {
@@ -197,26 +195,24 @@ a {
   text-decoration: underline;
 }
 
-
-#skills {
-  display: none;
+.top-pad {
+  margin-top: 15px;
+  width: 50%;
+  margin: 0 auto;
+  text-align:center;
 }
-
 .orange {
   background-color: #F5AE23;
 }
 
 .orange-text {
   color: #F5AE23;
+  padding-left: 0;
 }
 
 .white-text {
-  font-weight: bold;
   color: #FFFFFF;
-}
-
-.no-bullets {
-  list-style-type: none;
+  font-family: monospace, serif;
 }
 
 .gray {
@@ -260,6 +256,8 @@ ul {
   padding: 10px;
   width: 200px;
   display: none;
+  border: 7px solid;
+  margin-right: 15px;
 }
 
 img {
@@ -280,7 +278,6 @@ img {
 }
 
 span {
-  font-weight: bold;
   font-size: 18px;
   color: #FA5858;
   padding: 10px;
