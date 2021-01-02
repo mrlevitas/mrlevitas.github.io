@@ -172,9 +172,6 @@ function displayBio(){
 	var formattedLinkedin = HTMLLinkedin.replaceAll("%data%", bio.contact_info.Linkedin);
 	$("#topContacts").append(formattedLinkedin);
 
-	// var formattedMobile = HTMLmobile.replace("%data%", bio.contact_info.mobile);
-	//$("#topContacts").append(formattedMobile);
-
 	var formattedGithub = HTMLgithub.replaceAll("%data%", bio.contact_info.github);
 	$("#topContacts").append(formattedGithub);
 
@@ -190,7 +187,7 @@ function displayBio(){
 
 		for(skill_iter in bio.skills){
 			formattedSkill = HTMLskills.replace("%data%" , bio.skills[skill_iter]);
-			$("#header").append(formattedSkill);
+			$("#skills").append(formattedSkill);
 		}
 	}
 
@@ -198,7 +195,7 @@ function displayBio(){
 
    $("#footerContacts").append(formattedEmail)
         .append(formattedGithub)
-        .append(formattedLocation);
+        .append(formattedLinkedin);
 }
 
 function displayEducation(){
@@ -233,9 +230,6 @@ function displayEducation(){
 				formattedschoolGPA = HTMLschoolGPA.replace("%data%" , education.schools[school_iter].GPA);
 				$(".education-entry:last").append(formattedschoolGPA);
 			}
-			//formattedworkDescription = HTMLworkLocation.replace("%data%" , work.jobs[school_iter].description);
-			//$(".work-entry:last").append(formattedworkDescription);
-
 		}
 	}
 }
@@ -285,7 +279,7 @@ var menu = {
 
       {
          "title": "let's talk",
-         "link": "mailto:mrlevitas@yahoo.com"
+         "link": `mailto:${bio.contact_info.email}`
       }
    ]
 };

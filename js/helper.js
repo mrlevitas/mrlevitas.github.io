@@ -17,17 +17,17 @@ var HTMLheaderRole = "<span>%data%</span>";
 
 var HTMLcontactGeneric = "<li class='flex-item'><span class='orange-text'>%contact%</span><span class='white-text'>%data%</span></li>";
 var HTMLemail = "<li class='flex-item'><span class='orange-text'>email</span><a href='mailto:%data%' class='under'>%data%</a></li>";
-var HTMLgithub = "<li class='flex-item'><span class='orange-text'>github</span><a href='http://%data%' class='skillsH3 under'>%data%</a></li>";
-var HTMLLinkedin = "<li class='flex-item'><span class='orange-text'>Linkedin</span><a href='http://%data%' class='skillsH3 under'>%data%</a></li>";
-var HTMLlocation = "<li class='flex-item'><span class='orange-text'>location</span><a href='http://%data%' class='white-text'>%data%</a></li>";
+var HTMLgithub = "<li class='flex-item'><span class='orange-text'>github</span><a href='http://%data%' class='under'>%data%</a></li>";
+var HTMLLinkedin = "<li class='flex-item'><span class='orange-text'>Linkedin</span><a href='http://%data%' class='under'>%data%</a></li>";
+var HTMLlocation = "<li class='flex-item'><span class='orange-text'>location</span><a href='http://%data%' class='location-text white-text'>%data%</a></li>";
 
 var HTMLbioPic = "<img src='%data%' class='biopic'>";
 var HTMLWelcomeMsg = "<span class='welcome-message'>%data%</span>";
 
 var HTMLskillsStart = "<h3 id='skillsH3'>Skills at a Glance:</h3><ul id='skills' class='flex-box'></ul>";
-var HTMLskills = "<li class='no-bullets flex-item'><span class='white-text'>%data%</span></li>";
+var HTMLskills = "<li class='skill flex-item'><span class='white-text'>%data%</span></li>";
 
-var HTMLresume = "</br><h3 id='skillsH3'>Résumé: <a class='under' href='%data%'>link</a></h3>";
+var HTMLresume = "</br><h3 class='top-pad' id='resumeH3'>Résumé: <a class='under' href='%data%'>link</a></h3>";
 var HTMLworkStart = "<div class='work-entry'></div>";
 var HTMLworkEmployer = "<a href='#'>%data%";
 var HTMLworkTitle = " - %data%</a>";
@@ -46,8 +46,8 @@ var HTMLschoolName = "<a href='#'>%data%";
 var HTMLschoolDegree = " -- %data%</a>";
 var HTMLschoolDates = "<div class='date-text'>%data%</div><br>";
 var HTMLschoolLocation = "<div class='location-text'>%data%</div>";
-var HTMLschoolMinor = "<em><br>Minors: %data%</em>";
-var HTMLschoolGPA = "<em><br>GPA: %data%</em>";
+var HTMLschoolMinor = "<div class='pad-left'>Minors: %data%</div>";
+var HTMLschoolGPA = "<div class='pad-left'>GPA: %data%</div>";
 
 var HTMLonlineClasses = "<h3>Online Classes</h3>";
 var HTMLonlineTitle = "<a href='#'>%data%";
