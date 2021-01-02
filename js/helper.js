@@ -27,7 +27,7 @@ var HTMLWelcomeMsg = "<span class='welcome-message'>%data%</span>";
 var HTMLskillsStart = "<h3 id='skillsH3'>Skills at a Glance:</h3><ul id='skills' class='flex-box'></ul>";
 var HTMLskills = "<li class='skill flex-item'><span class='white-text'>%data%</span></li>";
 
-var HTMLresume = "</br><h3 class='top-pad' id='resumeH3'>Résumé: <a class='under' href='%data%'>link</a></h3>";
+var HTMLresume = "</br><h3 class='top-pad' id='resumeH3'>Resume: <a class='under' href='%data%'>link</a></h3>";
 var HTMLworkStart = "<div class='work-entry'></div>";
 var HTMLworkEmployer = "<a href='#'>%data%";
 var HTMLworkTitle = " - %data%</a>";
