@@ -201,6 +201,12 @@ a {
   margin: 0 auto;
   text-align:center;
 }
+
+.extra-text {
+  font-family: futura, sans-serif;
+  font-size: 14px;
+}
+
 .orange {
   background-color: #F5AE23;
 }
