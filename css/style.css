@@ -192,6 +192,12 @@ a {
   display: none;
 }
 
+.under {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
 #skills {
   display: none;
 }
@@ -207,6 +213,10 @@ a {
 .white-text {
   font-weight: bold;
   color: #FFFFFF;
+}
+
+.no-bullets {
+  list-style-type: none;
 }
 
 .gray {
@@ -233,6 +243,9 @@ a {
   padding: 10px;
 }
 
+.pad-left {
+  padding-left: 1%;
+}
 .center-content {
   padding: 5%;
 }

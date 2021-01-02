@@ -5,7 +5,7 @@ var bio = {
 	"resume_link" : "https://drive.google.com/file/d/1h_QWc4xTC8Kfd9A3oWF2HdOh39fTeF_z",
 	"skills" : skills ,
 	"contact_info" : {
-		"email" : "mrlevitas@yahoo.com" ,
+		"email" : "romanvlevitas@gmail.com" ,
 		"Linkedin": "linkedin.com/in/mrlevitas" ,
 		"github": "github.com/mrlevitas",
 		"location" : "San Francisco, CA"
@@ -20,7 +20,7 @@ var work = {
 		"position" : "Senior Software Engineer",
 		"employer" : "Juvo",
 		"years"    : "2019-present",
-		"description": "Continued responsibilities as backend engineer.<br>Developed & production-ized API backend for ML credit policy decisioning engine based on prepaid phone activity.<br>Created ETL Kafka consumer Campaign Notification service based on telco user's low-balance events.",
+		"description": "Devised API for Financial Identity as a Service (FIDaaS)--credit score API based on prepaid phone usage.<br>Built Kafka consumer for sms/push notifications in ETL pipeline based on user’s low-balance events<br>Created ETL Kafka consumer Campaign Notification service based on telco user's low-balance events.<br>Created microservice which calculates loan limit offered to users with FastApi asgi server (python)",
 		"location" : "San Francisco, CA"
 		},
 
@@ -28,7 +28,7 @@ var work = {
 		"position" : "Software Engineer",
 		"employer" : "Juvo",
 		"years"    : "2018-2019",
-		"description": "Juvo partners with mobile operators across the globe, providing prepaid mobile users in developing countries access to meaningful financial services using data science-driven Identity Scoring.<br>RoR backend responsibilities.",
+		"description": "Juvo partners with mobile operators across the globe, providing prepaid mobile users in developing countries access to meaningful financial services using data science-driven Identity Scoring.<br>RoR backend responsibilities.<br>Integrated telco APIs for e-wallet payment systems (Rails) and expanded frontend web features (React)<br>Created backend USSD solution for airtime lending product (Rails)<br>Revamped billing system in Airflow (Python)<br>Developed API for ML credit policy decisioning engine based on prepaid phone activity",
 		"location" : "San Francisco, CA"
 		},
 
@@ -36,7 +36,7 @@ var work = {
 		"position" : "Software Engineer",
 		"employer" : "One Door (formerly RBM Technologies)",
 		"years"    : "2017-2018",
-		"description": "Continued responsibilities as fullstack engineer including new areas such as development in Elm.",
+		"description": "Expanded frontend applet in Elm (functional language) that replaced interactive Flash editor.",
 		"location" : "Boston, MA"
 		},
 
@@ -44,7 +44,7 @@ var work = {
 		"position" : "Jr. Software Engineer",
 		"employer" : "RBM Technologies",
 		"years"    : "2016-2017",
-		"description": "Developing new features based on wire-frames as a fullstack engineer.",
+		"description": "Implemented new Rails features in Scrum environment as a fullstack engineer.",
 		"location" : "Boston, MA"
 		},
 
@@ -52,7 +52,7 @@ var work = {
 		"position" : "Software Engineer Intern",
 		"employer" : "RBM Technologies",
 		"years"    : "2016",
-		"description": "Deployed code in a Ruby on Rails environment using pull-request workflow as well as operating under a Scrum sprint based system.",
+		"description": "Resolved support tickets, ported background jobs to use a new library, and implemented wireframe designs using Haml, Coffeescript, Sass, and Ruby on Rails.",
 		"location" : "Boston, MA"
 		},
 
@@ -156,19 +156,6 @@ var education = {
 	]
 };
 
-/*
-var HTMLheaderName = "<h1 id='name'>%data%</h1>";
-var HTMLheaderRole = "<span>%data%</span>";
-
-var HTMLcontactGeneric = "<li class='flex-item'><span class='orange-text'>%contact%</span><span class='white-text'>%data%</span></li>";
-var HTMLmobile = "<li class='flex-item'><span class='orange-text'>mobile</span><span class='white-text'>%data%</span></li>";
-var HTMLemail = "<li class='flex-item'><span class='orange-text'>email</span><span class='white-text'>%data%</span></li>";
-var HTMLtwitter = "<li class='flex-item'><span class='orange-text'>twitter</span><span class='white-text'>%data%</span></li>";
-var HTMLgithub = "<li class='flex-item'><span class='orange-text'>github</span><span class='white-text'>%data%</span></li>";
-var HTMLblog = "<li class='flex-item'><span class='orange-text'>blog</span><span class='white-text'>%data%</span></li>";
-var HTMLlocation = "<li class='flex-item'><span class='orange-text'>location</span><span class='white-text'>%data%</span></li>";
-var HTMLbioPic = "<img src='%data%' class='biopic'>";
-*/
 
 function displayBio(){
 	var Statement = "Uni. of Illinois Urbana-Champaign Electrical Engineering 2014 graduate with a minor in Computer Science & German. Currently working as a Senior Software Engineer (backend).";
@@ -179,19 +166,19 @@ function displayBio(){
 	$("#header").prepend(formattedRole);
 	$("#header").prepend(formattedName);
 
-	var formattedEmail = HTMLemail.replace("%data%", bio.contact_info.email);
+	var formattedEmail = HTMLemail.replaceAll("%data%", bio.contact_info.email);
 	$("#topContacts").append(formattedEmail);
 
-	var formattedLinkedin = HTMLLinkedin.replace("%data%", bio.contact_info.Linkedin);
+	var formattedLinkedin = HTMLLinkedin.replaceAll("%data%", bio.contact_info.Linkedin);
 	$("#topContacts").append(formattedLinkedin);
 
 	// var formattedMobile = HTMLmobile.replace("%data%", bio.contact_info.mobile);
 	//$("#topContacts").append(formattedMobile);
 
-	var formattedGithub = HTMLgithub.replace("%data%", bio.contact_info.github);
+	var formattedGithub = HTMLgithub.replaceAll("%data%", bio.contact_info.github);
 	$("#topContacts").append(formattedGithub);
 
-	var formattedLocation = HTMLlocation.replace("%data%", bio.contact_info.location);
+	var formattedLocation = HTMLlocation.replaceAll("%data%", bio.contact_info.location);
 	$("#topContacts").append(formattedLocation);
 
 	var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
