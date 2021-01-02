@@ -46,8 +46,8 @@ var HTMLschoolName = "<a href='#'>%data%";
 var HTMLschoolDegree = " -- %data%</a>";
 var HTMLschoolDates = "<div class='date-text'>%data%</div><br>";
 var HTMLschoolLocation = "<div class='location-text'>%data%</div>";
-var HTMLschoolMinor = "<div class='pad-left'>Minors: %data%</div>";
-var HTMLschoolGPA = "<div class='pad-left'>GPA: %data%</div>";
+var HTMLschoolMinor = "<div class='extra-text pad-left'>Minors: %data%</div>";
+var HTMLschoolGPA = "<div class='extra-text pad-left'>GPA: %data%</div>";
 
 var HTMLonlineClasses = "<h3>Online Classes</h3>";
 var HTMLonlineTitle = "<a href='#'>%data%";
