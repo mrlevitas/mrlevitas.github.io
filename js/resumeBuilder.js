@@ -2,11 +2,12 @@ var skills = ["Ruby (on Rails)", "Python", "Go", "React", "Javascript", "Elm", "
 
 var bio = {
 	"name" : "Roman Levitas",
-	"resume_link" : "https://drive.google.com/file/d/1h_QWc4xTC8Kfd9A3oWF2HdOh39fTeF_z",
+	"resume_link" : "https://drive.google.com/file/d/12k2jPo6wdJ0jKSDtGmSWoafKeK4uUh0y",
 	"skills" : skills ,
 	"contact_info" : {
-		"email" : "romanvlevitas@gmail.com" ,
-		"Linkedin": "linkedin.com/in/mrlevitas" ,
+		"email_view" : "romanvlevitas at gmail.com",
+		"email" : "romanvlevitas@gmail.com",
+		"Linkedin": "linkedin.com/in/mrlevitas",
 		"github": "github.com/mrlevitas",
 		"location" : "San Francisco, CA"
 	} ,
@@ -166,7 +167,7 @@ function displayBio(){
 	$("#header").prepend(formattedRole);
 	$("#header").prepend(formattedName);
 
-	var formattedEmail = HTMLemail.replaceAll("%data%", bio.contact_info.email);
+	var formattedEmail = HTMLemail.replaceAll("%email%", bio.contact_info.email).replaceAll("%email_view%", bio.contact_info.email_view);
 	$("#topContacts").append(formattedEmail);
 
 	var formattedLinkedin = HTMLLinkedin.replaceAll("%data%", bio.contact_info.Linkedin);
