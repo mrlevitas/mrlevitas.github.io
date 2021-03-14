@@ -2,7 +2,7 @@ var skills = ["Ruby (on Rails)", "Python", "Go", "React", "Javascript", "Elm", "
 
 var bio = {
 	"name" : "Roman Levitas",
-	"resume_link" : "https://drive.google.com/file/d/12k2jPo6wdJ0jKSDtGmSWoafKeK4uUh0y",
+	"resume_link" : "https://drive.google.com/file/d/1yTjudf64Gv7b62ogQzSgRn7NY048ObjG",
 	"skills" : skills ,
 	"contact_info" : {
 		"email_view" : "romanvlevitas at gmail.com",
