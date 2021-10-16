@@ -21,8 +21,8 @@ var work = {
 			"position" : "Software Engineer III",
 			"employer" : "Reddit",
 			"years"    : "2021-present",
-			"description": "Backend/Data-Engineering on Experiments team.",
-			"location" : ""
+			"description": "Backend/Data-Engineer on Experiments team.",
+			"location" : "San Francisco, CA"
 		},
 		{
 		"position" : "Senior Software Engineer",
