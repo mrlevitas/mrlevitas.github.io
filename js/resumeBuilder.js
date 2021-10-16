@@ -18,10 +18,10 @@ var bio = {
 var work = {
 	"jobs" : [
 		{
-			"position" : "Software Engineer III, Experiments",
+			"position" : "Software Engineer III",
 			"employer" : "Reddit",
 			"years"    : "2021-present",
-			"description": "",
+			"description": "Backend/Data-Engineering on Experiments team.",
 			"location" : ""
 		},
 		{
