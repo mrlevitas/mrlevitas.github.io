@@ -18,9 +18,16 @@ var bio = {
 var work = {
 	"jobs" : [
 		{
+			"position" : "Software Engineer III, Experiments",
+			"employer" : "Reddit",
+			"years"    : "",
+			"description": "",
+			"location" : ""
+		},
+		{
 		"position" : "Senior Software Engineer",
 		"employer" : "Juvo",
-		"years"    : "2019-present",
+		"years"    : "2019-2021",
 		"description": "Devised API for Financial Identity as a Service (FIDaaS)--credit score API based on prepaid phone usage.<br>Built Kafka consumer for sms/push notifications in ETL pipeline based on user’s low-balance events<br>Created ETL Kafka consumer Campaign Notification service based on telco user's low-balance events.<br>Created microservice which calculates loan limit offered to users with FastApi asgi server (python)",
 		"location" : "San Francisco, CA"
 		},
