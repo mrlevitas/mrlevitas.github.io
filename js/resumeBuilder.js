@@ -20,7 +20,7 @@ var work = {
 		{
 			"position" : "Software Engineer III, Experiments",
 			"employer" : "Reddit",
-			"years"    : "",
+			"years"    : "2021-present",
 			"description": "",
 			"location" : ""
 		},
