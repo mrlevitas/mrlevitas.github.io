@@ -1,4 +1,4 @@
-var skills = ["Ruby (on Rails)", "Python", "Go", "React", "Javascript", "Elm", "C", "C++", "SQL", "Fluently Speak: German & Russian"];
+var skills = ["Rust", "Go", "Python", "Ruby (on Rails)", "ML", "Javascript / React", "Elm", "C", "C++", "SQL", "Fluently speak: German, Russian / Limited proficiency: Ukrainian)"];
 
 var bio = {
 	"name" : "Roman Levitas",
@@ -18,9 +18,16 @@ var bio = {
 var work = {
 	"jobs" : [
 		{
+			"position" : "Senior Software Engineer",
+			"employer" : "Reddit",
+			"years"    : "2022-present",
+			"description": "Backend/Data-Engineer on Experiments team.",
+			"location" : "San Francisco, CA"
+		},
+		{
 			"position" : "Software Engineer III",
 			"employer" : "Reddit",
-			"years"    : "2021-present",
+			"years"    : "2021-2021",
 			"description": "Backend/Data-Engineer on Experiments team.",
 			"location" : "San Francisco, CA"
 		},
@@ -110,6 +117,14 @@ var work = {
 var education = {
 	"schools" : [
 		{
+			"name" : "Georgia Tech" ,
+			"years" : "2023-present" ,
+			"city"  : "Atlanta, GA",
+			"major" : "OMSCS (Online Masters in Computer Science) specializing in Machine Learning",
+			"minors": "",
+			"GPA"   : ""
+		},
+		{
 		"name" : "University of Illinois Urbana Champaign" ,
 		"years" : "2009-2014" ,
 		"city"  : "Urbana-Champaign, IL",
@@ -117,7 +132,6 @@ var education = {
 		"minors": "Computer Science, German, International Minor in Engineering--Germany",
 		"GPA"   : "3.53"
 		},
-
 		{
 		"name" : "Launch Academy" ,
 		"years" : "2015-2016" ,
@@ -126,7 +140,6 @@ var education = {
 		"minors": "",
 		"GPA"   : ""
 		},
-
 		{
 		"name" : "Udacity" ,
 		"years" : "2017" ,
