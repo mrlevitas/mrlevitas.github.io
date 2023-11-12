@@ -179,7 +179,7 @@ var education = {
 
 
 function displayBio(){
-	var Statement = "Uni. of Illinois Urbana-Champaign Electrical Engineering 2014 graduate with a minor in Computer Science & German. Currently working as a Senior Software Engineer (backend).";
+	var Statement = "Uni. of Illinois Urbana-Champaign Electrical Engineering 2014 graduate with a minor in Computer Science & German.\nCurrently working at Reddit as a Senior (backend/data) Software Engineer on the Experimentation team (a/b testing) and am a student at Georgia Tech's OMSCS program specializing in Machine Learning.\n";
 
 	var formattedName = HTMLheaderName.replace("%data%", bio.name);
 	var formattedRole = HTMLheaderRole.replace("%data%", Statement)
