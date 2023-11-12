@@ -117,62 +117,62 @@ var work = {
 var education = {
 	"schools" : [
 		{
-			"name" : "Georgia Tech" ,
-			"years" : "2023-present" ,
+			"name" : "Georgia Tech",
+			"years" : "2023-present",
 			"city"  : "Atlanta, GA",
 			"major" : "OMSCS (Online Masters in Computer Science) specializing in Machine Learning",
 			"minors": "",
 			"GPA"   : ""
 		},
 		{
-		"name" : "University of Illinois Urbana Champaign" ,
-		"years" : "2009-2014" ,
-		"city"  : "Urbana-Champaign, IL",
-		"major" : "B.S. in Electrical Engineering",
-		"minors": "Computer Science, German, International Minor in Engineering--Germany",
-		"GPA"   : "3.53"
+			"name" : "University of Illinois Urbana Champaign",
+			"years" : "2009-2014",
+			"city"  : "Urbana-Champaign, IL",
+			"major" : "B.S. in Electrical Engineering",
+			"minors": "Computer Science, German, International Minor in Engineering--Germany",
+			"GPA"   : "3.53"
 		},
 		{
-		"name" : "Launch Academy" ,
-		"years" : "2015-2016" ,
-		"city"  : "Boston, MA",
-		"major" : "Fullstack Web Development in Ruby (on Rails) and JS",
-		"minors": "",
-		"GPA"   : ""
+			"name" : "Launch Academy",
+			"years" : "2015-2016",
+			"city"  : "Boston, MA",
+			"major" : "Fullstack Web Development in Ruby (on Rails) and JS",
+			"minors": "",
+			"GPA"   : ""
 		},
 		{
-		"name" : "Udacity" ,
-		"years" : "2017" ,
-		"city"  : "online",
-		"major" : "Nanodegrees in: Fullstack Web Development in Python, React, and Machine Learning",
-		"minors": "",
-		"GPA"   : ""
+			"name" : "Udacity",
+			"years" : "2017",
+			"city"  : "online",
+			"major" : "Nanodegrees in: Fullstack Web Development in Python, React, and Machine Learning",
+			"minors": "",
+			"GPA"   : ""
 		},
 		{
-		"name" : "Technical University Munich" ,
-		"years" : "2012 summer" ,
-		"city"  : "Munich, Germany",
-		"major" : "Nanotechnology",
-		"minors": "",
-		"GPA"   : ""
-		},
-
-		{
-		"name" : "North Kansas City High School" ,
-		"years" : "2007-2009" ,
-		"city"  : "North Kansas City, MO",
-		"major" : "International Baccalaureate Diploma",
-		"minors": "",
-		"GPA"   : "4.0"
+			"name" : "Technical University Munich",
+			"years" : "2012 summer",
+			"city"  : "Munich, Germany",
+			"major" : "Nanotechnology",
+			"minors": "",
+			"GPA"   : ""
 		},
 
 		{
-		"name" : "Oxford University St. Hugh's College" ,
-		"years" : "2008 summer" ,
-		"city"  : "Oxford, England",
-		"major" : "Sociology",
-		"minors": "",
-		"GPA"	: ""
+			"name" : "North Kansas City High School",
+			"years" : "2007-2009",
+			"city"  : "North Kansas City, MO",
+			"major" : "International Baccalaureate Diploma",
+			"minors": "",
+			"GPA"   : "4.0"
+		},
+
+		{
+			"name" : "Oxford University St. Hugh's College",
+			"years" : "2008 summer",
+			"city"  : "Oxford, England",
+			"major" : "Sociology",
+			"minors": "",
+			"GPA"	: ""
 		}
 	]
 };
