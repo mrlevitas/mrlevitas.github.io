@@ -2,17 +2,17 @@ var skills = ["Rust", "Go", "Python", "Ruby (on Rails)", "ML", "Javascript / Rea
 
 var bio = {
 	"name" : "Roman Levitas",
-	"resume_link" : "https://drive.google.com/file/d/1yTjudf64Gv7b62ogQzSgRn7NY048ObjG",
+	"resume_link" : "https://drive.google.com/file/d/1IlolWRsZ17Uus4F_SVz_8NUZhIHos6D9",
 	"skills" : skills ,
 	"contact_info" : {
-		"email_view" : "romanvlevitas at gmail.com",
+		"email_view" : "roman.v.levitas at gmail.com",
 		"email" : "romanvlevitas@gmail.com",
 		"Linkedin": "linkedin.com/in/mrlevitas",
 		"github": "github.com/mrlevitas",
 		"location" : "San Francisco, CA"
 	} ,
 	"welcomeMessage": "Welcome to my page, here you will find my information and skills!",
-    "bioPic": "images/state_fair.png"
+    "bioPic": "images/rvl.png"
 };
 
 var work = {
@@ -21,21 +21,21 @@ var work = {
 			"position" : "Senior Software Engineer",
 			"employer" : "Reddit",
 			"years"    : "2022-present",
-			"description": "Backend/Data-Engineer on Experiments team.",
+			"description": "Improved experiment configuration framework by introducing controls, metrics, and alerting.<br/>Maintained Go Experiments SDK lib (core logic written in Rust) and expanded company-wide adoption.",
 			"location" : "San Francisco, CA"
 		},
 		{
 			"position" : "Software Engineer III",
 			"employer" : "Reddit",
 			"years"    : "2021-2021",
-			"description": "Backend/Data-Engineer on Experiments team.",
+			"description": "Backend/Data-Engineer on Experiments (a/b testing) team.<br/><br/>Stood-up Airflow pipeline used to calculate experiment results & metrics.<br/>Re-wrote A/B test bucketing assignment logic in Rust & created bindings to Python SDK package: <a href='https://github.com/reddit/experiments.py' style='display: inline;'>Experiments.py<a/>",
 			"location" : "San Francisco, CA"
 		},
 		{
 		"position" : "Senior Software Engineer",
 		"employer" : "Juvo",
 		"years"    : "2019-2021",
-		"description": "Devised API for Financial Identity as a Service (FIDaaS)--credit score API based on prepaid phone usage.<br>Built Kafka consumer for sms/push notifications in ETL pipeline based on user’s low-balance events<br>Created ETL Kafka consumer Campaign Notification service based on telco user's low-balance events.<br>Created microservice which calculates loan limit offered to users with FastApi asgi server (python)",
+		"description": "Devised API for Financial Identity as a Service (FIDaaS)--credit score API based on prepaid phone spending/usage.<br>Created Campaign Notification Service (Kafka consumer) for sms/push notifications based on user’s low-balance events.<br>Created FastApi microservice (Python) which calculates loan limit offered to telco users.",
 		"location" : "San Francisco, CA"
 		},
 
@@ -43,7 +43,7 @@ var work = {
 		"position" : "Software Engineer",
 		"employer" : "Juvo",
 		"years"    : "2018-2019",
-		"description": "Juvo partners with mobile operators across the globe, providing prepaid mobile users in developing countries access to meaningful financial services using data science-driven Identity Scoring.<br>RoR backend responsibilities.<br>Integrated telco APIs for e-wallet payment systems (Rails) and expanded frontend web features (React)<br>Created backend USSD solution for airtime lending product (Rails)<br>Revamped billing system in Airflow (Python)<br>Developed API for ML credit policy decisioning engine based on prepaid phone activity",
+		"description": "Juvo partners with mobile operators across the globe, providing prepaid mobile users in developing countries access to meaningful financial services using data science-driven Identity Scoring.<br><br>Integrated telco APIs for e-wallet payment systems (Rails) and expanded frontend web features (React).<br>Created backend USSD solution for airtime lending product (Rails).<br>Revamped billing system in Airflow (Python).<br>Developed API for ML credit policy decisioning engine based on prepaid phone activity",
 		"location" : "San Francisco, CA"
 		},
 
@@ -75,7 +75,7 @@ var work = {
 		"position" : "Freelance Tutor",
 		"employer" : "Wyzant",
 		"years"    : "2015",
-		"description": "Created network of Iowa State University students that I tutored regularly in college level mathematics.",
+		"description": "Created a network of Iowa State University students that I tutored regularly in college level mathematics.",
 		"location" : "Ames, IA"
 		},
 
@@ -85,14 +85,6 @@ var work = {
 		"years"    : "2014-2015",
 		"description": "Tutored high school and university students in areas of math (calculus through differential equations), Physics, Computer Science, and SAT/ACT prep.",
 		"location" : "Washington D.C."
-		},
-
-		{
-		"position" : "Tutor",
-		"employer" : "Sylvan Learning",
-		"years"    : "2013-2014",
-		"description": "Tutored 2nd and 4th grade students in areas of Math and Reading",
-		"location" : "Des Moines, IA"
 		},
 
 		{
@@ -107,7 +99,7 @@ var work = {
 		"position" : "Research Assistant",
 		"employer" : "Center for Plasma Material Interaction",
 		"years"    : "2009-2010",
-		"description": "Ran & Maintained Lithium Ion Interaction experiment as part of research for fusion tokomak reactor www.iter.org (International Thermonuclear Experimental Reactor).	Regulated conditions for Ion Surface Interaction Experiment i.e. adjusting voltage levels to direct ion beam, maintaining vacuum, troubleshooting diagnosis, etc.",
+		"description": "Ran & Maintained Lithium Ion Interaction experiment as part of research for fusion tokomak reactor www.iter.org (International Thermonuclear Experimental Reactor).<br/>Regulated conditions for Ion Surface Interaction Experiment e.g. adjusting voltage levels to direct ion beam, maintaining vacuum, diagnostic troubleshooting, etc.",
 		"location" : "Urbana, IL"
 		}
 	]
@@ -119,7 +111,7 @@ var education = {
 		{
 			"name" : "Georgia Tech",
 			"years" : "2023-present",
-			"city"  : "Atlanta, GA",
+			"city"  : "online",
 			"major" : "OMSCS (Online Masters in Computer Science) specializing in Machine Learning",
 			"minors": "",
 			"GPA"   : ""
@@ -159,7 +151,7 @@ var education = {
 
 		{
 			"name" : "North Kansas City High School",
-			"years" : "2007-2009",
+			"years" : "2009",
 			"city"  : "North Kansas City, MO",
 			"major" : "International Baccalaureate Diploma",
 			"minors": "",
@@ -179,7 +171,9 @@ var education = {
 
 
 function displayBio(){
-	var Statement = "Uni. of Illinois Urbana-Champaign Electrical Engineering 2014 graduate with a minor in Computer Science & German.\nCurrently working at Reddit as a Senior (backend/data) Software Engineer on the Experimentation team (a/b testing) and am a student at Georgia Tech's OMSCS program specializing in Machine Learning.\n";
+	var Statement = "<br/>Uni. of Illinois Urbana-Champaign Electrical Engineering 2014 graduate with a minor in Computer Science & German. \
+	<br/>Currently working at Reddit as a Senior (backend/data) Software Engineer on the Experimentation team (a/b testing)\
+	<br/>and am a student in Georgia Tech's OMSCS program, specializing in Machine Learning.";
 
 	var formattedName = HTMLheaderName.replace("%data%", bio.name);
 	var formattedRole = HTMLheaderRole.replace("%data%", Statement)
