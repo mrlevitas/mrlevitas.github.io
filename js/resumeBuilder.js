@@ -1,8 +1,8 @@
-var skills = ["Rust", "Go", "Python", "Ruby (on Rails)", "ML", "Javascript / React", "Elm", "C", "C++", "SQL", "Fluently speak: German, Russian / Limited proficiency: Ukrainian"];
+var skills = ["Go", "Rust", "Python", "Ruby (on Rails)", "ML", "Javascript / React", "C", "C++", "Elm", "SQL", "Fluently speak: German, Russian / Limited proficiency: Ukrainian"];
 
 var bio = {
 	"name" : "Roman Levitas",
-	"resume_link" : "https://drive.google.com/file/d/1IlolWRsZ17Uus4F_SVz_8NUZhIHos6D9",
+	"resume_link": "https://drive.google.com/file/d/1QuBjL8_ukuxVyvCLP1CWaC7qw4Mmudz5",
 	"skills" : skills ,
 	"contact_info" : {
 		"email_view" : "roman.v.levitas at gmail.com",
@@ -18,17 +18,17 @@ var bio = {
 var work = {
 	"jobs" : [
 		{
-			"position" : "Senior Software Engineer",
+			"position" : "Senior Software Engineer (Experimentation)",
 			"employer" : "Reddit",
 			"years"    : "2022-present",
-			"description": "Improved experiment configuration framework by introducing controls, metrics, and alerting.<br/>Maintained Go Experiments SDK lib (core logic written in Rust) and expanded company-wide adoption.",
+			"description": "Rewrote Go Experiments SDK in native Golang achieving 98% p50 latency reduction and $759K annual savings(<a href = 'https://www.reddit.com/r/RedditEng/comments/1ssqx1q/k8_sidecars_gotta_drop_em_all' style = 'display: inline;' >r/RedditEng</a> post) <br/>Authored SKILL.md for migrating 70+ services to new Go Experiments SDK via bulk change.<br/>Built Request & Service level bucketing/exposure event deduplication with cache hit rate > 90%<br/>Led GraphQL Python → Go migration of mobile experiment bulk-bucketing & exposure endpoints<br/>Improved experiment configuration framework by introducing controls, metrics, and alerting.<br/>",
 			"location" : "San Francisco, CA"
 		},
 		{
-			"position" : "Software Engineer III",
+			"position" : "Software Engineer III (Experimentation)",
 			"employer" : "Reddit",
-			"years"    : "2021-2021",
-			"description": "Backend/Data-Engineer on Experiments (a/b testing) team.<br/><br/>Stood-up Airflow pipeline used to calculate experiment results & metrics.<br/>Re-wrote A/B test bucketing assignment logic in Rust & created bindings to Python SDK package: <a href='https://github.com/reddit/experiments.py' style='display: inline;'>Experiments.py<a/>",
+			"years"    : "2021-2022",
+			"description": "Implemented core bucket assignment logic in Rust for bindings to Javascript Experiments SDK & Python <a href = 'http://www.github.com/reddit/experiments.py' style = 'display: inline;' >Experiments.py SDK</a>, as well as Go sidecar SDK<br/>Stood-up Airflow pipeline used to calculate experiment result metrics.",
 			"location" : "San Francisco, CA"
 		},
 		{
@@ -51,7 +51,7 @@ var work = {
 		"position" : "Software Engineer",
 		"employer" : "One Door (formerly RBM Technologies)",
 		"years"    : "2017-2018",
-		"description": "Expanded frontend applet in Elm (functional language) that replaced interactive Flash editor.",
+		"description": "Migrated frontend Flash applet into Elm.",
 		"location" : "Boston, MA"
 		},
 
@@ -59,7 +59,7 @@ var work = {
 		"position" : "Jr. Software Engineer",
 		"employer" : "RBM Technologies",
 		"years"    : "2016-2017",
-		"description": "Implemented new Rails features in Scrum environment as a fullstack engineer.",
+		"description": "Delivered full-stack features in Rails from wireframe to production.",
 		"location" : "Boston, MA"
 		},
 
@@ -112,7 +112,7 @@ var education = {
 			"name" : "Georgia Tech",
 			"years" : "2023-present",
 			"city"  : "online",
-			"major" : "OMSCS (Online Masters in Computer Science) specializing in Machine Learning",
+			"major" : "MS in Computer Science (Artificial Intelligence specialization)",
 			"minors": "",
 			"GPA"   : ""
 		},
@@ -120,7 +120,7 @@ var education = {
 			"name" : "University of Illinois Urbana Champaign",
 			"years" : "2009-2014",
 			"city"  : "Urbana-Champaign, IL",
-			"major" : "B.S. in Electrical Engineering",
+			"major" : "BS in Electrical Engineering",
 			"minors": "Computer Science, German, International Minor in Engineering--Germany",
 			"GPA"   : "3.53"
 		},
